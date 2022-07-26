@@ -1,8 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-#include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
 
@@ -36,7 +33,7 @@ int main()
             printf("Donner votre note de math[%d] :\n",i+1);
             scanf("%lf",&noteMath[i]);
 
-            if ((noteMath[i]<0) || (noteMath[i]>20) || (isdigit(noteMath[i]) ==1))
+            if ((noteMath[i]<0) || (noteMath[i]>20) || (isdigit(noteMath[i]) == 1))
 
             { printf("erreur , la note doit etre UN NOMBRE et comprise entre 0 et 20");
             return 0;}
