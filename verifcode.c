@@ -22,7 +22,7 @@ scanf("%s" ,codesecret);
         if(isdigit(codesecret[i]) == 0)
         {
             if(n==3)
-            {
+            { 
                 printf("fin de tentative");
                 return 0;
 
@@ -104,3 +104,4 @@ scanf("%s" ,codesecret);
     printf("code secret correct");
 
     return 0;
+     }
